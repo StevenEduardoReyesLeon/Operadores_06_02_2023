@@ -6,5 +6,5 @@ let cuerpo = document.querySelector("#myAND");
 cuerpo.insertAdjacentHTML("beforeend", ` <tr>
                                             <td>${a}</td>
                                             <td>${b}</td>
-                                            <td>${a && b}</td>
+                                            <td>${a || b}</td>
                                         </tr>`);

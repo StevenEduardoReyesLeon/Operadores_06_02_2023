@@ -5,7 +5,7 @@ tablet{
 	text-align: center;
 }
 th, td{
-	border: 1px solid blue;
+	border: 2px solid rgb(0, 0, 0);
 }
 td, th{
 	border-right-width: 0;
