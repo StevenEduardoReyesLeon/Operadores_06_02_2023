@@ -1,27 +1,10 @@
 
-let num1 = 50, num2 = 30;
-let resultado;
+let a = confirm("Variable A\n\t\tSeleciona Aceptar si deseas el boleano True\n\t\tSeleciona Cancelar si deseas el boleano False")
+let b = confirm("Variable B\n\t\tSeleciona Aceptar si deseas el boleano True\n\t\tSeleciona Cancelar si deseas el boleano False")
 
-console.log(`${num1} == ${num2} 
-    R/ ${num1==num2}`);
-
-console.log(`${num1} != ${num2} 
-    R/ ${num1!=num2}`);
-
-console.log(`${num1} === ${num2} 
-    R/ ${num1===num2}`);
-
-console.log(`${num1} !== ${num2} 
-    R/ ${num1!==num2}`);
-
-console.log(`${num1} > ${num2} 
-    R/ ${num1>num2}`);
-
-console.log(`${num1} >= ${num2} 
-    R/ ${num1>=num2}`);
-
-console.log(`${num1} < ${num2} 
-    R/ ${num1<num2}`);
-
-console.log(`${num1} <= ${num2} 
-    R/ ${num1<=num2}`);
+let cuerpo = document.querySelector("#myAND");
+cuerpo.insertAdjacentHTML("beforeend", ` <tr>
+                                            <td>${a}</td>
+                                            <td>${b}</td>
+                                            <td>${a && b}</td>
+                                        </tr>`);
